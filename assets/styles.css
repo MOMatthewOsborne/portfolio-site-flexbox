@@ -4,6 +4,7 @@
 
 body {
     background-color: aquamarine;
+    height: 100%;
 }
 
 header {
@@ -15,14 +16,70 @@ ul {
     list-style: none;
 }
 
-#about-me {
-    background-color: blueviolet;
+
+.container-main {
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 900px;
+    background-color: azure;
 }
 
-#work {
-    background-color: chartreuse;
+.left-side {
+    background-color: greenyellow;
+    display: flex;
+    flex: 1 0 25%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 800px;
 }
 
-#contact-me {
-    background-color: fuchsia;
+.right-side {
+    background-color: magenta;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 75%;
+    height: 800px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image-place {
+    background-image: url("images/pexels-trần-long-13377187.jpg");
+    background-size: contain;
+    height: 200px;
+    flex: 0 0 200px;
+    width: 200px;
+
+
+}
+
+#about-head {
+    background-color: red;
+
+}
+
+#work-head {
+    background-color: coral;
+}
+
+#contact-head {
+    background-color: deeppink;
+}
+
+#about-content {
+    background-color: blue;
+}
+
+#work-content {
+    background-color: darkgoldenrod;
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+#contact-content {
+    background-color: darkgreen;
 }
