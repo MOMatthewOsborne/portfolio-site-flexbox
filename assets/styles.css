@@ -16,70 +16,38 @@ ul {
     list-style: none;
 }
 
-
-.container-main {
-    display: flex;
-    flex-direction: row;
-    flex: 0 0 900px;
-    background-color: azure;
+img {
+    max-width: 75%;
 }
 
-.left-side {
-    background-color: greenyellow;
+.content-container {
     display: flex;
-    flex: 1 0 25%;
+}
+
+.content-head {
+    width: 25%;
+    background-color: blueviolet;
+
+}
+
+.content-body {
+    width: 75%;
+    background-color: chartreuse;
+
+}
+
+#work-panels {
+    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    height: 800px;
+
+
 }
 
-.right-side {
-    background-color: magenta;
+.work-two {
     display: flex;
-    flex-direction: column;
-    flex: 1 0 75%;
-    height: 800px;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: space-around;
-}
-
-.image-place {
-    background-image: url("images/pexels-trần-long-13377187.jpg");
-    background-size: contain;
-    height: 200px;
-    flex: 0 0 200px;
-    width: 200px;
 
 
-}
 
-#about-head {
-    background-color: red;
-
-}
-
-#work-head {
-    background-color: coral;
-}
-
-#contact-head {
-    background-color: deeppink;
-}
-
-#about-content {
-    background-color: blue;
-}
-
-#work-content {
-    background-color: darkgoldenrod;
-    display: flex;
-    height: auto;
-    flex-wrap: wrap;
-    flex-direction: row;
-
-}
-
-#contact-content {
-    background-color: darkgreen;
 }
