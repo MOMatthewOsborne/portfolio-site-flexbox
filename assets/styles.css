@@ -1,3 +1,5 @@
+/* General CSS */
+
 * {
     margin: 0;
 }
@@ -19,22 +21,6 @@ a:visited {
     text-decoration: none;
     color: white;
 
-}
-
-.header-footer-links {
-    display: flex;
-    padding: 15px;
-}
-
-#header-links {
-
-    justify-content: flex-end;
-
-}
-
-#footer-links {
-    justify-content: space-around;
-    margin: auto;
 }
 
 ul {
@@ -69,6 +55,25 @@ h2 {
     margin: auto;
 }
 
+/* Header */
+
+.header-footer-links {
+    display: flex;
+    padding: 15px;
+}
+
+#header-links {
+
+    justify-content: flex-end;
+
+}
+
+#footer-links {
+    justify-content: space-around;
+    margin: auto;
+}
+
+/* Rules related to main site image */
 
 .hero {
     background-image: url("./images/hero.jpg");
@@ -89,13 +94,19 @@ h2 {
     font-weight: bold;
 }
 
+/* flexbox container */
+
 .container {
     display: flex;
 }
 
+/* General side bar */
+
 .side-bar {
     flex-basis: 30%;
 }
+
+/* Related to work section */
 
 .work-links {
     display: flex;
@@ -129,6 +140,8 @@ h2 {
 
 }
 
+/* Related to about section */
+
 
 .about-content {
     flex-basis: 70%;
@@ -150,6 +163,8 @@ h2 {
 
 }
 
+/* Footer */
+
 .contact-content {
     text-align: center;
     width: auto;
@@ -168,10 +183,16 @@ h2 {
     color: black;
 }
 
+/* First image in grid */
+
 #first-img {
     width: 900px;
 
 }
+
+/* Media queries */
+
+/* Tablet */
 
 @media screen and (max-width: 1033px) {
     #first-img {
@@ -190,6 +211,8 @@ h2 {
         flex-basis: 10%;
     }
 }
+
+/* Phone */
 
 @media screen and (max-width: 704px) {
     #first-img {
