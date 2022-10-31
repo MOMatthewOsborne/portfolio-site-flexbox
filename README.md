@@ -9,7 +9,7 @@ The main challenge was the image grid and how it related to media queries.
  
 # Things I learned
 
-I learned a lot about responsive design and flexbox. This was the first time I have built a site using these features. Also I thought a lot about the layout in general. I also thought a lot about in which order to build certain parts of the site. 
+I learned a lot about responsive design and flexbox. This was the first time I have built a site using these features. Also, I thought a lot about the layout in general. I also thought a lot about in which order to build certain parts of the site. 
 
 Here are two screenshots of the application.
 ![Web capture_31-10-2022_192844_127 0 0 1](https://user-images.githubusercontent.com/109035827/199098191-ca78b9d2-74cb-452e-aeb2-9a5581bb994d.jpeg)
