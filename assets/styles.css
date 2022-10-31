@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: aquamarine;
+    background-color: rgb(228, 226, 226);
     height: 100%;
 }
 
@@ -11,10 +11,13 @@ header {
     background-color: black;
     color: white;
     width: 100%;
+    position: relative;
 }
 
-a {
+a,
+a:visited {
     text-decoration: none;
+    color: white;
 
 }
 
@@ -48,8 +51,13 @@ img {
 }
 
 p {
-    margin: 80px;
-    padding: 20px;
+    margin: 0 80px;
+    font-size: 20px;
+    padding: 40px 0;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -61,13 +69,24 @@ h2 {
     margin: auto;
 }
 
+
 .hero {
     background-image: url("./images/hero.jpg");
     height: 300px;
     width: 100%;
     background-size: cover;
     background-position: center;
+    position: relative;
 
+}
+
+.hero-head {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .container {
@@ -86,6 +105,19 @@ h2 {
 
 }
 
+.img-container {
+    position: relative;
+}
+
+.img-caption {
+    position: absolute;
+    top: 45px;
+    background-color: cyan;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    max-width: 150px
+}
+
 
 .work-links>li {
     flex-basis: 300px;
@@ -97,9 +129,6 @@ h2 {
 
 }
 
-.work-head {
-    padding-right: 20px;
-}
 
 .about-content {
     flex-basis: 70%;
@@ -111,10 +140,13 @@ h2 {
 
 #portrait {
     border-radius: 50%;
-    width: 200px;
+    width: 80px;
     display: block;
     margin: auto;
-    padding-top: 25px;
+    left: 15%;
+    position: absolute;
+
+
 
 }
 
@@ -122,7 +154,18 @@ h2 {
     text-align: center;
     width: auto;
     flex-basis: 70%;
-    padding: 40px;
+    padding: 60px 0
+}
+
+#footer-links {
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.site-links a {
+    color: black;
 }
 
 #first-img {
@@ -168,6 +211,10 @@ h2 {
 
     h2 {
         font-size: 20px;
+    }
+
+    p {
+        margin: 20px;
     }
 
 
